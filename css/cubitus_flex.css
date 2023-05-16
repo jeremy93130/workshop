@@ -1,0 +1,53 @@
+main {
+    width: 50%;
+    border: 1px solid black;
+    margin: auto;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+h1 {
+  text-align: center;
+}
+div {
+  height: 60px;
+  width: 60px;
+  border: 1px solid black;
+  margin: 5px;
+}
+.vert {
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(131, 224, 131),
+    rgb(6, 44, 6)
+  );
+  border-radius: 6px 7px 15px 25px;
+}
+.bleu {
+  background-image: linear-gradient(
+    to bottom left,
+    rgb(155, 215, 235),
+    rgb(6, 6, 189)
+  );
+  border-radius: 25px 5px;
+}
+.orange {
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(212, 170, 92),
+    rgb(204, 134, 3)
+  );
+  border-radius: 5px 25px;
+}
+
+.rond {
+  border-radius: 50%;
+}
+
+.blanc {
+  border: none;
+  background: white;
+}
