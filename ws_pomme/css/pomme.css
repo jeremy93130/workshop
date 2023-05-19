@@ -5,18 +5,19 @@ body {
   width: 80%;
   margin: auto;
   background: white;
+  border: 5px solid #aabb44;
 }
 header {
   display: flex;
   justify-content: space-between;
 }
 
-.apple_img img {
-  height: 220px;
-}
-
 .header_title {
   margin: 20px;
+}
+
+.header_title img {
+  width: 100%;
 }
 
 nav {
@@ -24,12 +25,13 @@ nav {
   height: 25px;
   display: flex;
   justify-content: space-around;
-  box-shadow: 0 3px 5px 0 grey;
+  box-shadow: 0 5px 10px rgba(172, 170, 170, 0.795);
 }
 
 .links {
   width: 100%;
   border-right: 1px solid white;
+  border-bottom: 1px solid #81bf2f;
   display: flex;
   align-items: center;
   text-align: center;
@@ -43,6 +45,7 @@ nav {
 }
 .links:last-child {
   border: none;
+  border-bottom: 1px solid #81bf2f;
 }
 section {
   display: flex;
@@ -101,4 +104,21 @@ footer a {
   text-decoration: none;
   color: #8ed236;
   font-weight: bold;
+}
+
+@media (min-width:1000px){
+  .responsive {
+    display: flex;
+  }
+  #noLeft{
+    margin: 30px 0;
+  }
+  h2{
+    margin: 0;
+  }p{
+    padding: 0 20px;
+  }
+  footer p {
+    margin: 10px 0;
+  }
 }
