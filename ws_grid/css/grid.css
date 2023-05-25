@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+}
+
+main {
+    background: #db9df5;
+    border: 5px solid #64a5e3;
+}
+
+div {
+    width: 50%;
+    height: 250px;
+
+}
+
+.purple {
+
+    background: #7176e3;
+}
+
+#milieu {
+    background: #89abfa;
+    width: 50%;
+    margin: 10px auto;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.flex {
+    display: flex;
+
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+.petit {
+    height: 100px;
+    margin: auto;
+    display: flex;
+}
+
+.bleu-ciel {
+    background: #7ee7fd;
+    height: 100%;
+    width: 80%;
+}
+
+.violet {
+    background: #9a79fd;
+    height: 100%;
+    width: 20%;
+}
